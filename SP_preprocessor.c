@@ -7,7 +7,7 @@ string removeComments(string str)
     int length = str.length();
     bool multiComment = false;
     bool singleComment = false;
-    int spaceCount = 0;
+    int spaceCount = 0,l;
 
     for (int i=0;i<length;i++)
     {
